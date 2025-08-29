@@ -1,21 +1,33 @@
 {
   "name": "md2jsx",
-  "version": "1.0.0",
-  "description": "An NPM package for easilly importing content from a markdown file into React projects.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.1.0",
+  "description": "Render Markdown files as React components easily",
+  "homepage": "https://github.com/tailsmonster/md2jsx#readme",
+  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tailsmonster/md2jsx.git"
   },
-  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/tailsmonster/md2jsx.git#issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["markdown", "react", "mdx", "jsx"],
   "author": "Nico Aroca",
   "license": "MIT",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/tailsmonster/md2jsx/issues"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "rehype-react": "^6.1.0"
   },
-  "homepage": "https://github.com/tailsmonster/md2jsx#readme"
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }

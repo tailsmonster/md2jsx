@@ -20,6 +20,6 @@ export const MdComponent: React.FC<MdProps> = ({ content }) => {
 };
 
 // Convenience function: generate component from raw string
-export function md2jsx(content: string): React.FC {
+export function md2comp(content: string): React.FC {
   return () => <MdComponent content={content} />;
 }

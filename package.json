@@ -1,15 +1,15 @@
 {
-  "name": "md2jsx",
+  "name": "md2comp",
   "version": "0.1.0",
   "description": "Render Markdown files as React components easily",
-  "homepage": "https://github.com/tailsmonster/md2jsx#readme",
+  "homepage": "https://github.com/tailsmonster/md2comp#readme",
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tailsmonster/md2jsx.git"
+    "url": "git+https://github.com/tailsmonster/md2comp.git"
   },
   "bugs": {
-    "url": "https://github.com/tailsmonster/md2jsx.git#issues"
+    "url": "https://github.com/tailsmonster/md2comp.git#issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,6 +1,6 @@
 # My First Blog Post
 
-Welcome to my **Markdown-powered blog** using `md2jsx`!
+Welcome to my **Markdown-powered blog** using `md2comp`!
 
 ## Introduction
 
@@ -16,7 +16,7 @@ This is an example blog post. You can write:
 ## Code Example
 
 ```javascript
-console.log("Hello, md2jsx!");
+console.log("Hello, md2comp!");
 ```
 
 ## Conclusion
@@ -30,12 +30,12 @@ Now you can render this Markdown as a React component easily!
 
 1. Copy the text above.
 2. Create a new file in your project folder:  
-   `md2jsx/test/example-article.md`
+   `md2comp/test/example-article.md`
 3. Paste the contents and save.
 4. You can then import it in your React code:
 
 ```ts
-import { MdComponent } from "md2jsx";
+import { MdComponent } from "md2comp";
 import article from "./test/example-article.md";
 
 export default function App() {

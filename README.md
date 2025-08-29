@@ -1,11 +1,11 @@
-# md2jsx
+# md2comp
 
 Easily render Markdown content as React components.
 
 ## Installation
 
 ```bash
-npm install md2jsx react react-dom
+npm install md2comp react react-dom
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install md2jsx react react-dom
 
 ```tsx
 import React from "react";
-import { MdComponent } from "md2jsx";
+import { MdComponent } from "md2comp";
 
 const markdown = `
 # Hello World
@@ -27,13 +27,13 @@ export default function App() {
 }
 ```
 
-### Using the `md2jsx` function
+### Using the `md2comp` function
 
 ```tsx
 import React from "react";
-import { md2jsx } from "md2jsx";
+import { md2comp } from "md2comp";
 
-const BlogPost = md2jsx(`
+const BlogPost = md2comp(`
 # My Blog Post
 
 Some *Markdown content* here.
